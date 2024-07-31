@@ -107,7 +107,7 @@ fun property(name: String) =
 val isCiServer = System.getenv().containsKey("CI")
 
 gradleEnterprise {
-    server = "https://ge.apache.org"
+    server = "https://ge.solutions-team.gradle.com"
     allowUntrustedServer = false
 
     buildScan {
